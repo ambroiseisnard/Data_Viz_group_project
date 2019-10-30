@@ -69,8 +69,6 @@ DF4.set_index("timestamp", inplace=True)
 
 DF4.head().T
 
-
-
 l = 'hello world'
 
 
