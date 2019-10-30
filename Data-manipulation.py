@@ -19,7 +19,7 @@ sh.gunzip("meta_Musical_Instruments.json.gz")
 
 # Normalize the data to create a .csv file
 F1 = "Musical_Instruments.json"
-DF1 = pd.io.json.json_normalize([json.loads(line) for line in open(F1)])))))))))))))))
+DF1 = pd.io.json.json_normalize([json.loads(line) for line in open(F1)])
 
 F2 = "meta_Musical_Instruments.json"
 DF2 = pd.io.json.json_normalize([json.loads(line) for line in open(F2)])
