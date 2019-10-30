@@ -69,9 +69,5 @@ DF4.set_index("timestamp", inplace=True)
 
 DF4.head().T
 
-l = 'hello world'
-Ambroise = 'french'
-Felix = 'austrian'
-Fred = 'danish'
-Poldi = 'german'
+
 
